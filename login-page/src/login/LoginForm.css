@@ -1,0 +1,51 @@
+/* Login Form Styles */
+.form-group label{
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-size: calc(2px + 1vw);;
+}
+
+.form-group{
+    text-align: left;
+    font-size: calc(2px + 1vw);;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: calc(2px + 1vw);;
+}
+
+.submit-button:hover{ /* darker shade for hover effect */
+    background-color: rgba(0, 191, 100, 0.90); /*Green Color Scheme*/
+    /* background-color: rgb(148, 0, 59) /*Fuchsia Color Scheme*/
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter, sans-serif;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: calc(1px + 0.9vw);
+}
+
+.create-account{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.forgot-password{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
