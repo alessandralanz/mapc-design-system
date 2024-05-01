@@ -1,0 +1,9 @@
+.related-research {
+    padding: 2rem;
+}
+
+.research-cards-container {
+    display: flex;
+    justify-content: left;
+}
+
